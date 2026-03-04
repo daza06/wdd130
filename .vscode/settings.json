@@ -21,14 +21,14 @@
   "html.format.wrapLineLength": 100,
   "html.format.wrapAttributesIndentSize": 2,
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "css.format.enable": true,
   "css.format.maxPreserveNewLines": 2,
   "css.format.spaceAroundSelectorSeparator": true,
   "css.format.newlineBetweenRules": true,
   "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   // Git settings for beginners - simplify source control
   "git.enableSmartCommit": true, // automatically staged
