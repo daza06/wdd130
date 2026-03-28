@@ -1,8 +1,6 @@
 :root {
     --primary-color: #313647;
-    --secondary-color: #435663;
-    --accent1-color: #A3B087;
-    --accent2-color: #FFF;
+    --accent1-color: #FFF;
     --heading-font: "Times New Roman", Times, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -33,7 +31,7 @@ h2 {
     padding: 16px;
     text-align: center;
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 h1 {
@@ -44,7 +42,7 @@ h1 {
     text-align: center;
     opacity: 0.9;
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 nav,
@@ -87,7 +85,7 @@ article {
     width: 80%;
     opacity: 0.9;
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 .hero article p {
