@@ -41,35 +41,39 @@
           ></iframe>
         </div>
         <form class="contact-form">
-          <label>
-            Name
-            <input type="text" placeholder="Full Name" />
-          </label>
-
-          <label>
-            Email
-            <input type="email" placeholder="Email" />
-          </label>
-
+          <div class="form-item column2">
+            <label for="fullname">Full Name:</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div class="form-item column2">
+            <label for="useremail">Email Address:</label>
+            <input
+              type="email"
+              id="useremail"
+              name="useremail"
+              placeholder="Email"
+              required
+            />
+          </div>
           <fieldset>
             <legend>Message Purpose</legend>
-            <div>
-              <label>
-                <input type="radio" name="purpose" value="general" />
-                General Inquiry
-              </label>
+            <div class="option">
+              <label>General Inquiry</label>
+              <input type="radio" name="purpose" />
             </div>
-            <div>
-              <label>
-                <input type="radio" name="purpose" value="reservation" />
-                Reservation Question
-              </label>
+            <div class="option">
+              <label>Reservation Question</label>
+              <input type="radio" name="purpose" />
             </div>
-            <div>
-              <label>
-                <input type="radio" name="purpose" value="suggestion" />
-                Website Suggestion
-              </label>
+            <div class="option">
+              <label>Website Suggestion</label>
+              <input type="radio" name="purpose" />
             </div>
           </fieldset>
           <label>
@@ -78,7 +82,7 @@
           </label>
           <label class="checkbox">
             <input type="checkbox" checked />
-            Subscribe to the monthly newsletter
+            Subscribe to Newsletter
           </label>
           <button type="submit">Get in Touch!</button>
         </form>
