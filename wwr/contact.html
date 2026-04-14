@@ -23,9 +23,9 @@
         </ul>
       </nav>
     </header>
-    <main class="container">
+    <main>
       <section class="company-info">
-        <h1>White River Rafting</h1>
+        <h1>White Water Rafting</h1>
         <p>123 Main River Street</p>
         <p>Fort Collins, Colorado</p>
         <p>+1 999 999 9999</p>
@@ -53,18 +53,24 @@
 
           <fieldset>
             <legend>Message Purpose</legend>
-            <label for="general">
-              <input type="radio" id="general" name="general" checked />
-              General Inquiry
-            </label>
-            <label for="reservation">
-              <input type="radio" id="reservation" name="reservation" />
-              Reservation Question
-            </label>
-            <label for="suggestion">
-              <input type="radio" id="suggestion" name="suggestion" />
-              Website Suggestion
-            </label>
+            <div>
+              <label>
+                <input type="radio" name="purpose" value="general" />
+                General Inquiry
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="radio" name="purpose" value="reservation" />
+                Reservation Question
+              </label>
+            </div>
+            <div>
+              <label>
+                <input type="radio" name="purpose" value="suggestion" />
+                Website Suggestion
+              </label>
+            </div>
           </fieldset>
           <label>
             Message
@@ -72,7 +78,7 @@
           </label>
           <label class="checkbox">
             <input type="checkbox" checked />
-            Please Subscribe me to the monthly newsletter
+            Subscribe to the monthly newsletter
           </label>
           <button type="submit">Get in Touch!</button>
         </form>
